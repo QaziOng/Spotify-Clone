@@ -1,0 +1,29 @@
+* {
+    font-family: "Ubuntu", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track (background of scrollbar) */
+::-webkit-scrollbar-track {
+  background: #000; /* Black track */
+}
+
+/* Thumb (draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #000; /* Black thumb */
+  border-radius: 10px;
+}
+
+/* Optional: On hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #222;
+}
+
+.text-overflow-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

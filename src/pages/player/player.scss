@@ -1,0 +1,105 @@
+.player {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+
+    .player-image {
+        width: 3%;
+        min-width: 75px;
+
+        img {
+            border-radius: 5px;
+        }
+    }
+
+    .player-info {
+        padding-left: 1rem;
+        width: 27%;
+
+        h5 {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+
+        p {
+            margin: 0.5rem 0 0;
+            font-size: 1rem;
+            opacity: 0.5;
+            font-weight: 500;
+        }
+    }
+
+    .player-controls {
+        width: 40%;
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            font-size: 20px;
+            align-items: center;
+
+            i {
+                cursor: pointer;
+            }
+
+            .play-btn {
+                font-size: 35px;
+            }
+        }
+
+        .slider-container {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .rc-slider {
+                width: 75%;
+                margin: 0 1rem;
+            }
+        }
+    }
+
+    .player-volume {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 1rem;
+    }
+
+    .rc-slider {
+        .rc-slider-handle {
+            border: none;
+            opacity: 1;
+        }
+
+        .rc-slider-track {
+            background-color: #fff;
+        }
+
+        .rc-slider-rail {
+            background-color: #4f4f4f;
+        }
+    }
+}
+
+.color-green {
+    color: #1ed760;
+}
+
+.one-label {
+    position: absolute;
+    top: 0px;
+    left: 25%;
+    background: black;
+    height: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.time {
+    font-weight: 500;
+}

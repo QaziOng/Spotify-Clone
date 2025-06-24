@@ -1,0 +1,28 @@
+.navbar-dark, footer {
+    background: black;
+}
+
+.main-content  {
+    background: #121212;
+    color: white;
+}
+
+.btn-white {
+    background: white;
+    border-radius: 50px;
+    font-size: 20px;
+    padding-inline: 3rem;
+    font-weight: 600;
+    color: black;
+    &:hover {
+        background: #b9b9b9;
+    }
+}
+
+.nav-link {
+    color: white;
+    font-weight: 600;
+    &:hover {
+        color: #1ed760;
+    }
+}

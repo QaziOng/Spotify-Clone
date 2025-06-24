@@ -1,0 +1,34 @@
+.albums-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+    row-gap: 0.5rem;
+    justify-content: center;
+    .album-item {
+        width: 19.2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        padding: 1rem;
+            border-radius: 5px;
+        
+        img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        h3 {
+            margin-top: 0.5rem;
+            font-size: 1.5rem;
+        }
+        p {
+            opacity: 0.5;
+            font-weight: 600;
+        }
+
+        &:hover {
+            background-color: #282828;
+        }
+    }
+}
